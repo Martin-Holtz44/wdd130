@@ -34,11 +34,32 @@ aside img {
     height: auto;
 }
 main img {
+    /* you most likely will have other declarations here */
+    float: right;
     width: 150px;
     height: auto;
+}
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
 }
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
