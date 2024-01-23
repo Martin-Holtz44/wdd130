@@ -1,61 +1,70 @@
-nav {
-    background-color: steelblue;
-    padding: 10px;
-}
-nav a {
-    color: white;
-    display: block;
-    padding: 20px;
-}
-h1 {
-    color: steelblue;
-}
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
-p {
-    padding: 0;
-}
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-}
-aside img {
-    width: 200px;
-    height: auto;
-}
-main img {
-    /* you most likely will have other declarations here */
-    float: right;
-    width: 150px;
-    height: auto;
-}
-aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
-}
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}
+/* Global Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Class Selectors */
+/* Header Styling */
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+/* Main Content Styling */
+h1 {
+    color: steelblue;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right; /* Move this declaration to this block */
+}
+
+p {
+    padding: 0;
+}
+
+/* Aside Styling */
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+/* Class Selectors Styling */
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
