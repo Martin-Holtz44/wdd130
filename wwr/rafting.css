@@ -1,0 +1,70 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=YourSelectedFont1:wght@400;700&family=YourSelectedFont2:wght@400;700&display=swap');
+
+/* Define CSS variables for color scheme */
+:root {
+  --primary-color: #3498db;  /* Example color, replace with your chosen color */
+  --secondary-color: #2ecc71;  /* Example color, replace with your chosen color */
+  --text-color: #333;  /* Example color, replace with your chosen color */
+  --heading-color: #e74c3c;  /* Example color, replace with your chosen color */
+  --hero-background: rgba(255, 255, 255, 0.7);  /* Example background color with opacity */
+}
+
+/* Apply styles to headings and paragraph elements */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  font-family: 'YourSelectedFont1', sans-serif; /* Replace with your selected font */
+}
+
+p {
+  color: var(--text-color);
+  font-family: 'YourSelectedFont2', sans-serif; /* Replace with your selected font */
+}
+
+/* Remove underlines from social media links */
+nav.sociallinks a {
+  text-decoration: none;
+}
+
+/* Limit the entire width of the page */
+body {
+  max-width: 1200px; /* Adjust the value based on your design preferences */
+  margin: 0 auto;
+}
+
+/* Style the Hero Container */
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1,
+.hero article {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.hero h1 {
+  color: white; /* Example text color for the heading */
+  font-size: 2.5em; /* Adjust the font size as needed */
+}
+
+.hero article {
+  background-color: var(--hero-background);
+  padding: 20px;
+  opacity: 0.9; /* Adjust the opacity as needed */
+}
+
+.hero article img {
+  float: right;
+  margin: 0 0 10px 10px; /* Adjust margins as needed */
+}
